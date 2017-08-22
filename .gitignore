@@ -1,3 +1,4 @@
 static/external
 static/images
 static/.sass-cache
+*.map

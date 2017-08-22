@@ -1,0 +1,51 @@
+html,body,header {
+    height: 100%;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    .monHeader {
+        background: url("../images/intro5.jpg") no-repeat center;
+        color: white;
+        height: 100%;
+        width: 100vw;
+        padding-top: 40vh;
+        padding-bottom: 40vh;
+        background-size: cover;
+        h1 {
+            font-family: 'Arvo','serif';
+        }
+    }
+    .navbar {
+        border: none;
+        font-family: 'Arvo', "serif";
+        .navbar-brand {
+            transition: all 0.25s ease 0s;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.042;
+        }
+        li a:hover {
+            color: #1abc9c;
+        }
+    }
+    #whatis{
+        h2,h3 {
+            font-weight: bold;
+        }
+        .rotate {
+            transition-duration: 0.8s;
+            transition-property: transform;
+        }
+        .rotate:hover {
+            transform:rotate(360deg);
+           }
+        }
+
+    .content-section-b {
+        .item {
+            img {
+
+            }
+        }
+    }
+    }
