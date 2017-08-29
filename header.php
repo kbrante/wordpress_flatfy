@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()."/static/external/bootstrap/dist/css/bootstrap.min.css "?>">
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-    <link rel="stylesheet" href="static/external/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()."/static/external/font-awesome/css/font-awesome.css"?>">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/static/css/style.css' ;?>">
 </head>
