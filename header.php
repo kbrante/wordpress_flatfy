@@ -26,9 +26,10 @@
                     <a href="#downloadlink" class="">Free Download</a>
                 </div>
 
-                <a href="#"><img src="./static/images/circle.png" alt="circle"></a>
+                <a href="#"><img src=<?php echo get_stylesheet_directory_uri()."/static/images/circle.png"?> alt="circle"></a>
             </div>
         </div>
+
         <div class="row maNavbar">
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
@@ -43,11 +44,11 @@
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">What is ?</a></li>
-                            <li class="dropdown"><a href="#">Use It</a></li>
-                            <li class="dropdown"><a href="#">Screenshot</a></li>
-                            <li class="dropdown"><a href="#">Crédits</a></li>
-                            <li class="dropdown"><a href="#">Contact</a></li>
+                            <li><a href="#whatis">What is ?</a></li>
+                            <li class="dropdown"><a href="#useit">Use It</a></li>
+                            <li class="dropdown"><a href="#screen">Screenshot</a></li>
+                            <li class="dropdown"><a href="#credits">Crédits</a></li>
+                            <li class="dropdown"><a href="#contact">Contact</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->

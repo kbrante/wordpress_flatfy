@@ -11,34 +11,34 @@ get_header();
         </div>
         <div class="row">
             <div class="col-sm-4 wow fadeInDown text-center animate">
-                <img class="rotate" src="static/images/tweet.svg" alt="Generic placeholder image">
+                <img class="rotate" src=<?php echo get_stylesheet_directory_uri()."/static/images/tweet.svg"?> alt="Generic placeholder image">
                 <h3>Follow Me</h3>
                 <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
             </div>
             <div class="col-sm-4 wow fadeInDown text-center animated">
-                <img class="rotate" src="static/images/picture.svg" alt="Generic placeholder image">
+                <img class="rotate" src=<?php echo get_stylesheet_directory_uri()."/static/images/picture.svg"?> alt="Generic placeholder image">
                 <h3>Gallery</h3>
                 <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
             </div>
             <div class="col-sm-4 wow fadeInDown text-center animated">
-                <img class="rotate" src="static/images/retina.svg" alt="Generic placeholder image">
+                <img class="rotate" src=<?php echo get_stylesheet_directory_uri()."/static/images/retina.svg"?> alt="Generic placeholder image">
                 <h3>Retina</h3>
                 <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
             </div>
         </div>
         <div class="row tworow">
             <div class="col-sm-4 wow fadeInDown text-center animated">
-                <img class="rotate" src="static/images/laptop.svg" alt="Generic placeholder image">
+                <img class="rotate" src=<?php echo get_stylesheet_directory_uri()."/static/images/laptop.svg"?> alt="Generic placeholder image">
                 <h3>Responsive</h3>
                 <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
             </div>
             <div class="col-sm-4 wow fadeInDown text-center animated">
-                <img class="rotate" src="static/images/map.svg" alt="Generic placeholder image">
+                <img class="rotate" src=<?php echo get_stylesheet_directory_uri()."/static/images/map.svg"?> alt="Generic placeholder image">
                 <h3>Google</h3>
                 <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
             </div>
             <div class="col-sm-4 wow fadeInDown text-center animated animated" style="visibility: visible; animation-name: fadeInDown;">
-                <img class="rotate" src="static/images/browser.svg" alt="Generic placeholder image">
+                <img class="rotate" src=<?php echo get_stylesheet_directory_uri()."/static/images/browser.svg"?> alt="Generic placeholder image">
                 <h3>Bootstrap</h3>
                 <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
             </div>
@@ -53,23 +53,9 @@ get_header();
                     <div class="owl-wrapper-outer">
                         <div class="owl-wrapper" style="width: 3330px; left: 0px; display: block; transition: all 0ms ease 0s; transform: translate3d(0px, 0px, 0px);">
                             <div class="owl-item" style="width: 555px;">
-                                <a class="image-link" href="static/images/iphone.png">
+                                <a class="image-link" href=<?php echo get_stylesheet_directory_uri()."/static/images/iphone.png"?>>
                                     <div class="item">
-                                        <img class="img-responsive img-rounded" src="static/images/iphone.png" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="owl-item" style="width: 555px;">
-                                <a class="image-link" href="static/images/iphone.png">
-                                    <div class="item">
-                                        <img class="img-responsive img-rounded" src="static/images/iphone.png" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="owl-item" style="width: 555px;">
-                                <a class="image-link" href="static/images/iphone.png">
-                                    <div class="item">
-                                        <img class="img-responsive img-rounded" src="static/images/iphone.png" alt="">
+                                        <img class="img-responsive img-rounded" src=<?php echo get_stylesheet_directory_uri()."/static/images/iphone.png"?> alt="">
                                     </div>
                                 </a>
                             </div>
@@ -110,7 +96,7 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-sm-6 pull-right wow fadeInRightBig animated animated" style="visibility: visible;">
-                <img class="img-responsive " src="static/images/doge.png" alt="">
+                <img class="img-responsive " src=<?php echo get_stylesheet_directory_uri()."/static/images/doge.png"?> alt="">
             </div>
             <div class="col-sm-6 wow fadeInLeftBig animated animated" data-animation-delay="200" style="visibility: visible;">
                 <h3 class="section-heading">Font Awesome & Glyphicon</h3>
@@ -139,37 +125,37 @@ get_header();
             <div class="owl-wrapper" style="width: 4680px; left: 0px; display: block; transition: all 800ms ease 0s; transform: translate3d(-390px, 0px, 0px);">
                 <div class="owl-item" style="width: 390px;">
                     <div class="owl-item" style="width: 390px;">
-                        <a class="image-link" href="static/images/2.png">
+                        <a class="image-link" href=<?php echo get_stylesheet_directory_uri()."/static/images/circle.png"?>>
                             <div class="item">
-                                <img class="img-responsive img-rounded" src="static/images/2.png" alt="Owl Image">
+                                <img class="img-responsive img-rounded" src=<?php echo get_stylesheet_directory_uri()."/static/images/2.png"?> alt="Owl Image">
                             </div>
                         </a>
                     </div>
                     <div class="owl-item" style="width: 390px;">
                         <a class="image-link" href="static/images/3.png">
                             <div class="item">
-                                <img class="img-responsive img-rounded" src="static/images/3.png" alt="Owl Image">
+                                <img class="img-responsive img-rounded" src=<?php echo get_stylesheet_directory_uri()."/static/images/3.png"?> alt="Owl Image">
                             </div>
                         </a>
                     </div>
                     <div class="owl-item" style="width: 390px;">
                         <a class="image-link" href="static/images/1.png">
                             <div class="item">
-                                <img class="img-responsive img-rounded" src="static/images/1.png" alt="Owl Image">
+                                <img class="img-responsive img-rounded" src=<?php echo get_stylesheet_directory_uri()."/static/images/1.png"?> alt="Owl Image">
                             </div>
                         </a>
                     </div>
                     <div class="owl-item" style="width: 390px;">
                         <a class="image-link" href="static/images/2.png">
                             <div class="item">
-                                <img class="img-responsive img-rounded" src="static/images/2.png" alt="Owl Image">
+                                <img class="img-responsive img-rounded" src=<?php echo get_stylesheet_directory_uri()."/static/images/2.png"?> alt="Owl Image">
                             </div>
                         </a>
                     </div>
                     <div class="owl-item" style="width: 390px;">
                         <a class="image-link" href="static/images/3.png">
                             <div class="item">
-                                <img class="img-responsive img-rounded" src="static/images/3.png" alt="Owl Image">
+                                <img class="img-responsive img-rounded" src=<?php echo get_stylesheet_directory_uri()."/static/images/3.png"?> alt="Owl Image">
                             </div>
                         </a>
                     </div>
@@ -229,7 +215,7 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-sm-6 pull-right wow fadeInRightBig animated animated" style="visibility: visible;">
-                <img class="img-responsive " src="static/images/ipad.png" alt="">
+                <img class="img-responsive " src=<?php echo get_stylesheet_directory_uri()."/static/images/ipad.png"?> alt="">
             </div>
             <div class="col-sm-6 wow fadeInLeftBig animated animated" data-animation-delay="200" style="visibility: visible;">
                 <h3 class="section-heading">Full Responsive</h3>
