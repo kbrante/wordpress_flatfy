@@ -208,7 +208,6 @@ get_header();
                 </div>
             </div>
         </div>
-        >
     </div>
 </div>
 <div id="useit" class="content-section-a">
