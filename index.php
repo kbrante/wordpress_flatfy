@@ -55,7 +55,9 @@ get_header();
                             <div class="owl-item" style="width: 555px;">
                                 <a class="image-link" href=<?php echo get_stylesheet_directory_uri()."/static/images/iphone.png"?>>
                                     <div class="item">
-                                        <img class="img-responsive img-rounded" src=<?php echo get_stylesheet_directory_uri()."/static/images/iphone.png"?> alt="">
+                                        <img
+                                         class=
+                                         "img-responsive img-rounded" src=<?php echo get_stylesheet_directory_uri()."/static/images/iphone.png"?> alt="">
                                     </div>
                                 </a>
                             </div>
