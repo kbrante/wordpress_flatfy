@@ -7,11 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Flatfy</title>
 
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()."/static/external/bootstrap/dist/css/bootstrap.min.css "?>">
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()."/static/external/font-awesome/css/font-awesome.css"?>">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/static/css/style.css' ;?>">
+    <?php wp_head() ?>
 </head>
 
 <body>
